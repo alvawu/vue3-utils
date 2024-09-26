@@ -1,0 +1,31 @@
+{
+  "name": "gzpost-base",
+  "version": "0.1.20",
+  "description": "gzpost-base库是使用typescript开发，面向vue3，定位是一个轻量级，平台无关（PC、Mobile皆可使用），UI库无关（不集成具体UI库）的通用库。包含了请求封装，数据验证，缓存操作，基础接口定义（interface），实用工具以及微信相关验证及jssdk封装等等。目的是减少项目中重复定义的通用逻辑，并提供路由守卫的顺序校验控制。",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type-check": "vue-tsc --noEmit"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/js-cookie": "^3.0.6",
+    "@types/md5": "^2.3.5",
+    "@types/url-parse": "^1.4.11",
+    "axios": "^1.7.7",
+    "content-disposition-parser": "^1.0.2",
+    "dayjs": "^1.11.13",
+    "js-cookie": "^3.0.5",
+    "js-file-download": "^0.4.12",
+    "md5": "^2.3.0",
+    "merge": "^2.1.1",
+    "rfdc": "^1.4.1",
+    "url-parse": "^1.5.10",
+    "vue-router": "^4.4.5",
+    "xss": "^1.0.15"
+  },
+  "publishConfig": {
+    "registry": "http://verdaccio:7001"
+  }
+}
