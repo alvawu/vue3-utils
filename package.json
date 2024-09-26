@@ -1,7 +1,7 @@
 {
   "name": "vue3-utils",
   "version": "0.0.1",
-  "description": "vue3-utils库是使用typescript开发，面向vue3，定位是一个轻量级，平台无关（PC、Mobile皆可使用），UI库无关（不集成具体UI库）的通用库。包含了请求封装，数据验证，缓存操作，基础接口定义（interface），实用工具以及微信相关验证及jssdk封装等等。目的是减少项目中重复定义的通用逻辑，并提供路由守卫的顺序校验控制。",
+  "description": "vue3-utils, is a lightweigth and none platform related and none UI related library for vue3 application development, written by typescript. It provided such as network request, data validation, cache operation, and wechat related supported.",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
